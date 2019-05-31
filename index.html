@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+		}
+		.clear{
+			clear: both;
+		}
+		header{
+			width: 1000px;
+			height:100px;
+			margin-top: 10px;
+			
+		}
+		#logo {
+			margin-top: 20px;
+			float: left;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		nav{
+			width: 1000px;
+			height: 50px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			padding-top: 20px;
+			background-color: black;
+			font-weight: bold;
+			font-style: italic;
+
+		}
+		nav li {
+			display: inline;
+			margin: 50px;
+			color: red;
+
+		}
+		li {
+			list-style-type: none;
+
+		}
+		section {
+			float: left;
+			margin-top: 10px;
+			
+		}
+		aside {
+			float: left;
+			margin-left: 30px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			padding-left: 25px; 
+			padding-right: 25px;
+			padding-top: 15px;
+		}
+		aside li {
+			margin-bottom: 42px;
+		}
+		footer {
+			width: 1000px;
+			height: 100px;
+			margin-top: 10px;
+			border: solid 1px #000000; 
+		}
+		#address{
+			float: left;
+			margin: 30px 0 0 20px;
+
+
+		}
+		#customer {
+			float: right;
+			margin: 30px 0 0 180px;
+
+		}
+		#page {
+			width: 1000px;
+			margin: auto;
+			//border: solid 1px red;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="page">
+	<header>
+		<img src="./img/header.png">
+		<div id="logo"></div>
+		
+	</header>
+	<div class="clear"></div><!-- float 속성 해제-->
+	<nav>
+		<ul>
+			<li>떡볶이란 무엇인가?</li>
+			<li>체인 떡볶이 맛집</li>
+			<li>로컬 떡볶이 맛집</li>
+			<li>사이드 추천</li>
+			
+		</ul>
+	</nav>
+	<div class="clear"></div><!-- float 속성 해제-->
+	<section>
+		<img src="./img/him.png" width="750" >
+	</section>
+	<aside>
+		<ul>
+			<li>떡 종류</li>
+			<li>소스 종류</li>
+			<li>맛집 순위</li>
+			<li>남은 떡볶이 처리방법</li>
+		</ul>
+	</aside>
+	<section class="clear">
+		<img src="./img/ww.jpg" width="1000">
+	</section>
+		<div class="clear"></div><!-- float 속성 해제-->
+
+	<footer>
+		<div id="address"> 
+			만든이 : 정혜진 <br>
+			동양미래대학교 웹프로그래밍기초 
+		</div>
+		
+	</footer>
+</body>
+</html>
