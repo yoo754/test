@@ -35,22 +35,36 @@
 			font-style: italic;
 
 		}
-		nav li {
+		nav ul {
 			display: inline;
 			margin: 50px;
 			color: red;
-
-
 		}
-		nav li:hover{
+		nav ul:hover{
 			color: white;
 		}
-		nav li:active{
+		nav ul:active{
 			color: skyblue;
 		}
 		li {
 			list-style-type: none;
 
+		}
+		.main1 {
+			display: inline-block;
+		}
+		.main1 li {
+			color: white;
+		}
+		.main2{
+			display: none;
+			background-color: gray;
+			position: absolute; /*옆으로*/
+			width: 100px;
+			padding: 12px 16px;
+		}
+		.main1:hover .main2 {
+			display: block;
 		}
 		section {
 			float: left;
@@ -107,13 +121,29 @@
 	</header>
 	<div class="clear"></div><!-- float 속성 해제-->
 	<nav>
-		<ul>
-			<li>떡볶이란 무엇인가?</li>
-			<li>체인 떡볶이 맛집</li>
-			<li>로컬 떡볶이 맛집</li>
-			<li>사이드 추천</li>
-			
+		<div class="main1">
+		<ul> 떡볶이란 무엇인가?</ul>
+	</div>
+	<div class="main1">
+		<ul> 체인 떡볶이 맛집 </ul>
+		<div class="main2"> 
+			<li>두끼떡볶이</li>
+			<li>국대떡볶이</li>
+			<li>엽기떡볶이</li>
 		</ul>
+	</div>
+</div>
+	<div class="main1">
+		<ul> 로컬 떡볶이 맛집 </ul>
+		<div class="main2"> 
+			<li>홍대</li>
+			<li>이대</li>
+			<li>안국</li>
+		</ul>
+	</div>
+</div>
+	
+
 	</nav>
 	<div class="clear"></div><!-- float 속성 해제-->
 	<section>
