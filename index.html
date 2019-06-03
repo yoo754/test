@@ -1,173 +1,286 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
 	<title></title>
+
 	<style type="text/css">
+
 		*{
+
 			padding: 0;
+
 			margin:0;
+
 		}
+
 		.clear{
+
 			clear: both;
+
 		}
+
 		header{
+
 			width: 1000px;
+
 			height:100px;
+
 			margin-top: 10px;
+
 			
+
 		}
+
 		#logo {
+
 			margin-top: 20px;
+
 			float: left;
+
 		}
+
 		#top{
+
 			float: right;
+
 			margin: 30px 20px 0 0;
+
 		}
+
 		nav{
+
 			width: 1000px;
+
 			height: 50px;
+
 			margin-top: 10px;
+
 			border: solid 1px #cccccc;
+
 			padding-top: 20px;
+
 			background-color: black;
+
 			font-weight: bold;
+
 			font-style: italic;
 
-		}
-		nav ul {
-			display: inline;
-			margin: 50px;
-			color: red;
-		}
-		nav ul:hover{
-			color: white;
-		}
-		nav ul:active{
-			color: skyblue;
-		}
-		li {
-			list-style-type: none;
+
 
 		}
-		.main1 {
-			display: inline-block;
-		}
-		.main1 li {
-			color: white;
-		}
-		.main2{
-			display: none;
-			background-color: gray;
-			position: absolute; /*옆으로*/
-			width: 100px;
-			padding: 12px 16px;
-		}
-		.main1:hover .main2 {
-			display: block;
-		}
-		section {
-			float: left;
-			margin-top: 10px;
-			
-		}
-		aside {
-			float: left;
-			margin-left: 30px;
-			margin-top: 10px;
-			border: solid 2px #000000;
-			padding-left: 25px; 
-			padding-right: 25px;
-			padding-top: 15px;
-		}
-		aside li {
-			margin-bottom: 42px;
-			font-weight: bold;
-		}
-		aside li:hover {
+
+		nav li {
+
+			display: inline;
+
+			margin: 50px;
+
 			color: red;
+
+
+
+
+
 		}
-		footer {
-			width: 1000px;
-			height: 100px;
-			margin-top: 10px;
-			border: solid 2px #000000; 
+
+		nav li:hover{
+
+			color: white;
+
 		}
-		#address{
+
+		nav li:active{
+
+			color: skyblue;
+
+		}
+
+		li {
+
+			list-style-type: none;
+
+
+
+		}
+
+		section {
+
 			float: left;
+
+			margin-top: 10px;
+
+			
+
+		}
+
+		aside {
+
+			float: left;
+
+			margin-left: 30px;
+
+			margin-top: 10px;
+
+			border: solid 2px #000000;
+
+			padding-left: 25px; 
+
+			padding-right: 25px;
+
+			padding-top: 15px;
+
+		}
+
+		aside li {
+
+			margin-bottom: 42px;
+
+			font-weight: bold;
+
+		}
+
+		aside li:hover {
+
+			color: red;
+
+		}
+
+		footer {
+
+			width: 1000px;
+
+			height: 100px;
+
+			margin-top: 10px;
+
+			border: solid 2px #000000; 
+
+		}
+
+		#address{
+
+			float: left;
+
 			margin: 30px 0 0 20px;
 
 
+
+
+
 		}
+
 		#customer {
+
 			float: right;
+
 			margin: 30px 0 0 180px;
 
+
+
 		}
+
 		#page {
+
 			width: 1000px;
+
 			margin: auto;
+
 			//border: solid 1px red;
+
 		}
+
 	</style>
+
 </head>
+
 <body>
 
+
+
 	<div id="page">
+
 	<header>
+
 		<img src="./img/header.png">
+
 		<div id="logo"></div>
+
 		
+
 	</header>
+
 	<div class="clear"></div><!-- float 속성 해제-->
+
 	<nav>
-		<div class="main1">
-		<ul> 떡볶이란 무엇인가?</ul>
-	</div>
-	<div class="main1">
-		<ul> 체인 떡볶이 맛집 </ul>
-		<div class="main2"> 
-			<li>두끼떡볶이</li>
-			<li>국대떡볶이</li>
-			<li>엽기떡볶이</li>
+
+		<ul>
+
+			<li>떡볶이란 무엇인가?</li>
+
+			<li>체인 떡볶이 맛집</li>
+
+			<li>로컬 떡볶이 맛집</li>
+
+			<li>사이드 추천</li>
+
+			
+
 		</ul>
-	</div>
-</div>
-	<div class="main1">
-		<ul> 로컬 떡볶이 맛집 </ul>
-		<div class="main2"> 
-			<li>홍대</li>
-			<li>이대</li>
-			<li>안국</li>
-		</ul>
-	</div>
-</div>
-	
 
 	</nav>
+
 	<div class="clear"></div><!-- float 속성 해제-->
+
 	<section>
+
 		<img src="./img/him.png" width="750" >
+
 	</section>
+
 	<aside>
+
 		<ul>
+
 			<li>떡 종류</li>
+
 			<li>소스 종류</li>
+
 			<li>맛집 순위</li>
+
 			<li>남은 떡볶이 처리방법</li>
+
 		</ul>
+
 	</aside>
+
 	<section class="clear">
+
 		<img src="./img/ww.jpg" width="1000">
+
 	</section>
+
 		<div class="clear"></div><!-- float 속성 해제-->
 
+
+
 	<footer>
+
 		<div id="address"> 
+
 			만든이 : 정혜진 <br>
+
 			동양미래대학교 웹프로그래밍기초 
+
 		</div>
+
 		
+
 	</footer>
+
 </body>
+
 </html>
+
