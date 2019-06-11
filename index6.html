@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+		}
+		.clear{
+			clear: both;
+		}
+
+		a:link{
+		 	color: red; text-decoration: none;
+		 }
+ 		a:visited{
+ 			color: red; text-decoration: none;
+ 		}
+ 		a:hover{
+ 			color: white;
+ 		}
+
+		header{
+			width: 1000px;
+			height:100px;
+			margin-top: 10px;
+			
+		}
+		#logo {
+			margin-top: 20px;
+			float: left;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		nav{
+			width: 1000px;
+			height: 50px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			padding-top: 20px;
+			background-color: black;
+			font-weight: bold;
+			font-style: italic;
+
+		}
+		nav ul {
+			display: inline;
+			margin: 50px;
+			color: red;
+			 margin-left: 120px;
+ 			
+		}
+		nav ul:hover{
+			color: white;
+
+		}
+		nav li:active{
+			color: skyblue;
+		}
+		li {
+			list-style-type: none;
+
+		}
+		.main1 {
+			display: inline-block;
+		}
+		.main1 li {
+			color: white;
+		}
+		.main2{
+			display: none;
+			background-color: gray;
+			position: absolute; /*옆으로*/
+			width: 100px;
+			padding: 16px 16px;
+			margin-left: 120px;
+		}
+		.main1:hover .main2 {
+			display: block;
+		}
+		section {
+			float: left;
+			margin-top: 10px;
+			font-size: 20px;
+			
+		}
+		section p1 {
+			color: red;
+		}
+		section p {
+			font-weight: bold;
+		}
+		
+		footer {
+			width: 1000px;
+			height: 100px;
+			margin-top: 10px;
+			border: solid 2px #000000; 
+		}
+		#address{
+			float: left;
+			margin: 30px 0 0 20px;
+
+
+		}
+		#customer {
+			float: right;
+			margin: 30px 0 0 180px;
+
+		}
+		#page {
+			width: 1000px;
+			margin: auto;
+			//border: solid 1px red;
+		}
+		#tto p{
+			font-size: 30px
+		}
+		#menu {
+		
+		width: 1000px;
+		height: 1100px;
+		background-image: linear-gradient(to right,#c02121,white);
+		transition: width 2s, height 2s, transform 2s;
+		text-align: center;
+		}
+		#menu p {
+			font-size: 25px;
+		}
+	
+		#menu:hover {
+		width: 1000px;
+		height: 1100px;
+		transform: rotate(360deg);
+		text-align: center;
+		}
+		#div1 {
+		width: 1000px;
+		height: 80px;
+		transition: width 2s, height 2s, transform 2s;
+		border: 1px dotted black;
+		color: white;
+		font-size: 10px;
+		text-align:center
+		}
+		#div1:hover {
+		width: 1000px;
+		height: 80px;
+		transform: scale(1,2);
+		font-size: 20px;
+		color: black;
+		background-color: #c02121;
+		text-align:center
+		}
+		#div1 {transition-timing-function: linear;}
+	</style>
+</head>
+<body>
+
+	<div id="page">
+	<header>
+		<a href="./index.html"><img src="./img/header.png">
+
+		<div id="logo"></div>
+		
+	</header>
+	<div class="clear"></div><!-- float 속성 해제-->
+	<nav>
+		<div class="main1">
+		<ul><a href="./index2.html">떡볶이란 무엇인가?</a></ul>
+	</div>
+	<div class="main1">
+		<ul> 체인 떡볶이 맛집 </ul>
+		<div class="main2"> 
+			<li><a href="./index3.html">국대떡볶이</a></li>
+			<li><a href="./index4.html">엽기떡볶이</a></li>
+		</ul>
+	</div>
+</div>
+	<div class="main1">
+		<ul> 로컬 떡볶이 맛집 </ul>
+		<div class="main2"> 
+			<li><a href="./index5.html">홍대</a></li>
+			<li><a href="./index6.html">명지대</a></li>
+		</ul>
+	</div>
+</div>
+	
+
+	</nav>
+	<div class="clear"></div><!-- float 속성 해제-->
+	<section>
+		<br>
+		<br>
+		<img src="./img/jidae.png">
+		<div id="tto">
+		<p>| 명지대 퐁닭떡볶이 |</p><br>
+		</div>
+		<img src="./img/pongmain.png" >
+		<br><br>
+
+		<div id="menu">
+			<br>
+			<p> &nbsp;&nbsp;&nbsp;&nbsp;- 메뉴 -</p> <br>
+			<img src="./img/pongmenu.png">
+		</div>
+
+		<div id="tto">
+			<br><br><br>
+			<img src="./img/chuchun.png" width="1000">
+		</div>
+
+
+		<br><br>
+
+		<p>- 1. <2인기준> B SET (퐁닭떡볶이,스팸명란마요밥)</p><br>
+		<img src="./img/pong2.png" width="1000"><br>
+		2명이서 먹으면 완전 배부르고 맛있게 먹을 수 있다!<br>
+		하지만 조금 남길 수 있는 정도의 양이다ㅠ.ㅠ
+
+	
+
+		<br><br><br><br>
+
+
+
+		개인적인 평가 (마우스를 갖다대면 보입니다)
+		<div id="div1">
+		스팸명란마요밥에서..명란을 싫어하는 사람이라면 거북할만한 냄새가 납니다.<br>
+		하지만 비벼놓으면 맛있으니 걱정은 마시길..<br>
+		이거 먹으러 1시간 달려서 갈정도로 맛있는 가게입니다..강추합니다..한번만 먹어보십쇼
+		</div><br><br><br><br>
+		
+		<br><br><br><br>
+
+
+
+
+
+
+	</section>
+
+		<div class="clear"></div><!-- float 속성 해제-->
+
+	<footer>
+		<div id="address"> 
+			만든이 : 정혜진 <br>
+			동양미래대학교 웹프로그래밍기초 
+		</div>
+	</footer>
+</body>
+</html>

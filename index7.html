@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+		}
+		.clear{
+			clear: both;
+		}
+		
+		a:link{
+		 	color: red; text-decoration: none;
+		 }
+ 		a:visited{
+ 			color: red; text-decoration: none;
+ 		}
+ 		a:hover{
+ 			color: white;
+ 		}
+
+		header{
+			width: 1000px;
+			height:100px;
+			margin-top: 10px;
+			
+		}
+		#logo {
+			margin-top: 20px;
+			float: left;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		nav{
+			width: 1000px;
+			height: 50px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			padding-top: 20px;
+			background-color: black;
+			font-weight: bold;
+			font-style: italic;
+
+		}
+		nav ul {
+			display: inline;
+			margin: 50px;
+			color: red;
+			 margin-left: 120px;
+ 			
+		}
+		nav ul:hover{
+			color: white;
+
+		}
+		nav li:active{
+			color: skyblue;
+		}
+		li {
+			list-style-type: none;
+
+		}
+		.main1 {
+			display: inline-block;
+		}
+		.main1 li {
+			color: white;
+		}
+		.main2{
+			display: none;
+			background-color: gray;
+			position: absolute; /*옆으로*/
+			width: 100px;
+			padding: 16px 16px;
+			margin-left: 120px;
+		}
+		.main1:hover .main2 {
+			display: block;
+		}
+		section {
+			float: left;
+			margin-top: 10px;
+			font-size: 20px;
+			
+		}
+		section p1 {
+			color: red;
+		}
+		section p {
+			font-weight: bold;
+		}
+		
+		footer {
+			width: 1000px;
+			height: 100px;
+			margin-top: 10px;
+			border: solid 2px #000000; 
+		}
+		#address{
+			float: left;
+			margin: 30px 0 0 20px;
+
+
+		}
+		#customer {
+			float: right;
+			margin: 30px 0 0 180px;
+
+		}
+		#page {
+			width: 1000px;
+			margin: auto;
+			//border: solid 1px red;
+		}
+		table th{
+        width: 100px;
+        height: 50px;
+      	}
+      	table td {
+      		padding-top: 10px;
+      		padding-bottom: 10px;
+      		padding-left: 10px;
+      		padding-right: 10px;
+      	}
+      	table, th, td {
+        border: 1px solid #c02121;
+     	 }
+     	 .tteok p {
+     	 	font-size: 20px;
+     	 	text-align: center;
+     	 }
+
+	</style>
+</head>
+<body>
+
+	<div id="page">
+	<header>
+		<a href="./index.html"><img src="./img/header.png">
+
+		<div id="logo"></div>
+		
+	</header>
+	<div class="clear"></div><!-- float 속성 해제-->
+	<nav>
+		<div class="main1">
+		<ul><a href="./index2.html">떡볶이란 무엇인가?</a></ul>
+	</div>
+	<div class="main1">
+		<ul> 체인 떡볶이 맛집 </ul>
+		<div class="main2"> 
+			<li><a href="./index3.html">국대떡볶이</a></li>
+			<li><a href="./index4.html">엽기떡볶이</a></li>
+		</ul>
+	</div>
+</div>
+	<div class="main1">
+		<ul> 로컬 떡볶이 맛집 </ul>
+		<div class="main2"> 
+			<li><a href="./index5.html">홍대</a></li>
+			<li><a href="./index6.html">명지대</a></li>
+		</ul>
+	</div>
+</div>
+	
+
+	</nav>
+
+	<img src="./img/tteokmain.png">
+	<table>
+		<tr>
+			<th>찌는 떡</th>
+			<td>구름떡 · 무지개떡 · 무치 · 백설기 · 개떡 · 취떡 · 가랍떡 · 깻잎떡 · 서속떡 · 조침떡 · 메싹떡 · 만경떡 · 율무떡 · 감자떡 · 조랑떡 · 술떡 · 망개떡 · 두텁떡 · 송편 · 꿀떡 · 시루떡 · 도토리떡 · 외랑떡 · 마꽃떡 · 귀리떡 · 근대떡 · 느티떡 · 석탄병 · 보리떡 · 호박떡 · 고구마떡 · 복령떡 · 상추떡 · 감떡 · 달떡 · 달팽이떡 · 댑싸리떡 · 옥수수떡 · 솔방울떡 · 콩떡 · 여주산병 · 혼돈병 · 김치떡 · 순채떡 · 봉치떡 · 새미떡 · 임지떡 · 인삼떡 · 거말떡 · 칠곡떡 · 청치주먹떡 · 밀기울떡</td>
+		</tr>
+		<tr>
+			<th>치는 떡</th>
+			<td>가래떡 · 개피떡 · 고치떡 · 절편 · 인절미 · 좁쌀떡 ·
+			찹쌀떡 · 바나나떡 · 배피떡 · 숯떡 · 송기떡 · 오쟁이떡</td>
+			
+		</tr>
+		<tr>
+			<th>지지는 떡</th>
+			<td>구절떡 · 괴명떡 · 화전 · 부꾸미 · 노티 · 비지떡 · 호떡 · 빙떡 · 곤떡</td>
+		</tr>
+		<tr>
+			<th>삶는 떡</th>
+			<td>꼬장떡 · 돌래떡 · 오메기떡 · 잣구리 · 경단 · 닭알떡 · 오그랑떡 · 즘떡</td>
+		</tr>
+		<tr>
+			<th>기타</th>
+			<td>웃기떡 · 떡국 · 떡꼬치 · 떡만둣국 · 떡볶이 · 노점 떡갈비 · 모시떡 · 중국호떡 · 오방떡 · 약밥 · 당귀떡 · 주걱떡 · 물떡 · 홍천메밀총떡 · 장떡 · 당콩떡</td>
+		</tr>
+	</table>
+	<br><br>
+	<img src="./img/tteok2.png">
+	<br><br>
+
+	<div class="tteok">
+	<img src="./img/ssal.png">
+	<p>쫄깃하면서 단단한 식감의 쌀떡</p><br>
+	<img src="./img/ssaltteok.jpg" width="490" height="500">
+	<img src="./img/ssaltteok2.jpg"width="490" height="500"><br><br>
+	<img src="./img/mil.png">
+	<p>밀떡 특유의 부드러움과 잘 배인 양념맛과 그 사이에서도 유지되는 밀떡만의 고소한 맛</p><br>
+	<img src="./img/miltteok.jpg"width="490" height="500">
+	<img src="./img/miltteok2.png"width="490" height="500">
+
+<br><br><br><br>
+	<p>과거에는 쌀보다 가격이 싼 밀가루로 단가 절감과 쌀 절약을 위해 떡을 만들어 떡볶이에 사용했지만, <br>
+	오늘날에는 쌀이 남아도는 세상이 되었고 밀값도 많이 오르면서 <br>밀 떡볶이나 쌀 떡볶이나 가격 차이가 크게 나진 않게 되었다. <br><br>
+
+	즉 취향따라 먹으면 됩니다^^! </p>
+
+	</div>
+	<br><br><br><br>
+	
+	<footer>
+		<div id="address"> 
+			만든이 : 정혜진 <br>
+			동양미래대학교 웹프로그래밍기초 
+		</div>
+	</footer>
+</body>
+</html>
