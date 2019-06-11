@@ -125,6 +125,7 @@
 		height: 700px;
 		background-image: linear-gradient(to right,#c02121,white);
 		transition: width 2s, height 2s, transform 2s;
+		text-align: center;
 		}
 		#menu p {
 			font-size: 25px;
@@ -134,8 +135,28 @@
 		width: 1000px;
 		height: 700px;
 		transform: rotate(360deg);
+		text-align: center;
 		}
-		#div2 {transition-timing-function: ease;}
+		#div1 {
+		width: 1000px;
+		height: 70px;
+		
+		transition: width 2s, height 2s, transform 2s;
+		border: 1px dotted black;
+		color: white;
+		font-size: 10px;
+		text-align:center
+		}
+		#div1:hover {
+		width: 1000px;
+		height: 105px;
+		transform: scale(1,2);
+		font-size: 20px;
+		color: black;
+		background-color: #c02121;
+		text-align:center
+		}
+		#div1 {transition-timing-function: linear;}
 	</style>
 </head>
 <body>
@@ -184,7 +205,7 @@
 
 		<div id="menu">
 			<br>
-			<p> &nbsp;&nbsp;&nbsp;&nbsp;- 메뉴</p> <br>
+			<p> &nbsp;&nbsp;&nbsp;&nbsp;- 메뉴 -</p> <br>
 			<img src="./img/ttomenu.jpg" width="1000">
 		</div>
 
@@ -201,15 +222,17 @@
 		이 가게에 왔으면 꼭 한번쯤은 먹어야 하는 기본 조합이다.<br>
 		맛있다. 진짜 맛있다.
 
-		<br><br><br>
+		<br><br><br><br>
 
 
 
-
-		개인적인 평으로는 이 가게는 떡볶이가 막 그렇게 인상적인 맛은 아니다.<br>
-		하지만 떡볶이는 떡볶이만 맛있어야 떡볶이 맛집이 아니고 사이드도 맛있어야 좋은 떡볶이 맛집이라 생각한다. <br>
-		또보겠지 떡볶이의 완성은 '버터갈릭' 이다.<br>
-		이 메뉴를 먹을 생각이 없다면..사실..이 가게를 갈 필요가 없다고 생각한다.<br><br>
+		개인적인 평가 (마우스를 갖다대면 보입니다)
+		<div id="div1">
+		개인적인 평으로는 이 가게는 떡볶이가 막 그렇게 인상적인 맛은 아닙니다.<br>
+		하지만 저는 사이드도 맛있어야 좋은 떡볶이 맛집이라 생각합니다. <br>
+		또보겠지 떡볶이의 완성은 '버터갈릭' 입니다.<br>
+		이 메뉴를 먹을 생각이 없다면..사실..이 가게를 갈 필요가 없다고 생각합니다.<br><br>
+		</div><br><br><br><br>
 		<img src="./img/tto3.jpg" width="500"><img src="./img/tto5.jpg" width="500">
 		↑ 버터갈릭 
 		<br><br><br><br>
